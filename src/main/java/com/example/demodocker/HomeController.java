@@ -9,6 +9,6 @@ public class HomeController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello World";
+        return "<h1 style=\"color:blue;\">hung<h1>";
     }
 }
