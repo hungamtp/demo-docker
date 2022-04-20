@@ -17,7 +17,8 @@ remove image + -f (force to delete)
 build to image
 
 #docker run -d(run in background) --name=(name) -p (dockerPort):(internalPort) (imageName)
-run the
+run the app in background 
+and want to see the log (docker logs 'containerId')
 
 #docker logs (containerId)
 view the log
