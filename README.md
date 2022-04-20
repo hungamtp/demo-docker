@@ -20,8 +20,9 @@ build to image
 run the app in background 
 and want to see the log (docker logs 'containerId')
 
-#docker logs (containerId)
+#docker -f logs (containerId)
 view the log
+-f : tailing the log
 
 #CMD vs ENTRYPOINT
 
