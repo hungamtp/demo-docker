@@ -31,3 +31,5 @@ with cmd CMD["sleep","10"]
 docker run ubuntu-sleeper
 with entrypoint ENTRYPOINT["sleep"]
 docker run ubuntu-sleeper 10
+
+#docker container stop
