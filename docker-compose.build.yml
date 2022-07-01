@@ -4,4 +4,4 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    image: hello:1.0
+    image: hello:1.1

@@ -4,14 +4,14 @@ networks:
     external: true
 services:
   hello:
-    image: hello:1.0
-    container_name: hello_1.0
+    image: hello:1.1
+    container_name: hello_1.1
     working_dir: /home
     command: ["java", "-jar", "demo-docker.jar"]
     ports:
-      - 8080:8080
+      - 8081:8081
 #    env_file:
-#      - .env.test
+#      - .env
     networks:
       - local_network
 
